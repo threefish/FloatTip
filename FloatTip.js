@@ -82,7 +82,7 @@
         this.addEvent(that.el, "mouseover", that.show);
         this.addEvent(that.el, "mouseout", that.hide);
     };
-    Tooltip.prototype = {
+    FloatTip.prototype = {
         version: '1.0.1',
         addEvent: function (el, eventType, handler) {
             if (el.addEventListener) {
